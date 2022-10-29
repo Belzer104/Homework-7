@@ -1,3 +1,3 @@
-### Setup scripts "Clean Folder"
+### Scripts "Clean Folder"
 
 
