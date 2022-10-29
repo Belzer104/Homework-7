@@ -9,6 +9,5 @@ setup(
     packages= find_namespace_packages(),
     description = "Sorted file",
     long_description= open("README.md").read(),
-    install_requires= ['file_parser', 'normalize'],
     entry_points= {'console_scripts': ['clean-folder = clean_folder.main:run_sort']}   
 )
