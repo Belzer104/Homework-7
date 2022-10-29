@@ -41,7 +41,7 @@ def handle_folder(folder: Path):
         print(f'Error deleting the folder {folder}')
 
 
-def clean(folder: Path):
+def main(folder: Path):
     parser.scan(folder)
     for file in parser.JPEG_IMAGES:
         handle_media(file, folder / 'images')
@@ -104,7 +104,7 @@ def run_sort():
     else:    
 
         print(f'Start in folder {folder_for_scan.resolve()}')
-        clean(folder_for_scan.resolve())
+        main(folder_for_scan.resolve())
 
 
 if __name__ == '__main__':
@@ -116,4 +116,4 @@ if __name__ == '__main__':
 
 
 
-# TODO: run:  python clean.py `name_folder`
+# TODO: run:  python main.py `name_folder`
