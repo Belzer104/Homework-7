@@ -6,8 +6,8 @@ setup(
     version= "0.0.1",
     author= "Illia",
     url= "hhttps://github.com/Belzer104",
-    license=open("LICENCE").read(),
+    license= "MIT",
     packages= find_packages(),
     long_description= open("README.md").read(),
-    entry_points= {'console_scripts': ['clean-folder = clean_folder.clean:clean_folder']}   
+    entry_points= {'console_scripts': ['clean-folder = clean_folder.clean:run_sort']}   
 )
